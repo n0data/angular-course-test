@@ -1,0 +1,15 @@
+<!--<input type="file" style="display: none;" #uploader />
+<button (click)="uploader.click()"> Load file</button>-->
+<app-menu></app-menu>
+
+<div class="container">
+
+    <h2>In theaters</h2>
+    
+    <app-movies-list [movies]="moviesInTheaters"></app-movies-list>
+    
+    <h2>Future releases</h2>
+    
+    <app-movies-list [movies]="moviesFutureReleases"></app-movies-list> 
+
+</div>
